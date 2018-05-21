@@ -6,14 +6,14 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Control de terminos</name>
+    <name>Hello World</name>
 
     <description>
-        Control de terminos
+        Hello World sample application that responds to the deviceready event.
     </description>
 
-    <author href="http://ct.anla.gov.co" email="ingeniero.fabio.garcia@gmail.com">
-        Anla
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        PhoneGap Team
     </author>
 
     <!--
@@ -45,7 +45,6 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->

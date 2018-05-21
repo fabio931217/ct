@@ -111,7 +111,7 @@
 			  <div class="swiper-slide toolbar-icon">
               <a href="sinergia.html" data-view=".view-main"><img src="images/icons/blue/sinergia.png" alt="" title="" /><span>SINERGIA</span></a>
               <a href="sinergia_sectores.html" data-view=".view-main"><img src="images/icons/blue/sinergia_s.png"/><span>SINERGIA SECTORES</span></a>
-              <a href="estado_proyectos.html" data-view=".view-main"><img src="images/icons/blue/estados.png"/><span>ESTADO PROYECTOS</span></a>
+              <a href="estado_proyectos.html" data-view=".view-main" onclick="cargar_grafica();"><img src="images/icons/blue/estados.png"/><span>ESTADO PROYECTOS</span></a>
               <a href="decretos.html" data-view=".view-main"><img src="images/icons/blue/decretos.png" /><span>DECRETOS APLICABLES</span></a>
               <a href="resumen_estadistico.html" data-view=".view-main"><img src="images/icons/blue/resumen_e.png" /><span>RESUMEN ESTADISTICO</span></a>
               <a href="tiempos.html" data-view=".view-main"><img src="images/icons/blue/tiempos.png" alt="" title="" /><span>TIEMPOS DE RESPUESTA</span></a>
@@ -211,27 +211,9 @@
     </div>
 
 
-  
-  
-    <!-- Social Icons Popup -->
-    <div class="popup popup-social">
-    <div class="content-block">
-      <h4>Ayuda</h4>
-      <p>Share icons solution that allows you share and increase your social popularity.</p>
-      <ul class="social_share">
-      <li><a href="http://twitter.com/" class="external"><img src="images/icons/black/twitter.png" alt="" title="" /><span>Manual de usuario</span></a></li>
-      <li><a href="http://www.facebook.com/" class="external"><img src="images/icons/black/facebook.png" alt="" title="" /><span>Glosario de terminos</span></a></li>
-      <li><a href="http://plus.google.com/" class="external"><img src="images/icons/black/gplus.png" alt="" title="" /><span>GOOGLE</span></a></li>
-      <li><a href="http://www.dribbble.com/" class="external"><img src="images/icons/black/dribbble.png" alt="" title="" /><span>DRIBBBLE</span></a></li>
-      <li><a href="http://www.linkedin.com/" class="external"><img src="images/icons/black/linkedin.png" alt="" title="" /><span>LINKEDIN</span></a></li>
-      <li><a href="http://www.pinterest.com/" class="external"><img src="images/icons/black/pinterest.png" alt="" title="" /><span>PINTEREST</span></a></li>
-      </ul>
-      <div class="close_popup_button"><a href="#" class="close-popup"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
-    </div>
-    </div>
 
     
-<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js" ></script>
 <script type="text/javascript" src="js/framework7.js"></script>
 <script type="text/javascript" src="js/jquery.swipebox.js"></script>
@@ -239,7 +221,14 @@
 <script type="text/javascript" src="js/email.js"></script>
 <script type="text/javascript" src="js/audio.min.js"></script>
 <script type="text/javascript" src="js/my-app.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<!-- MODULOS -->
+
+<script type="text/javascript" src="modulos/estados_proyectos.js"></script>
 
 </body>
 
