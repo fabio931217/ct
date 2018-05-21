@@ -1,12 +1,15 @@
   function cargar_grafica() {
+    $("#cargar").hide();
+    $("#contiene_informacion").hide();
     setTimeout(function(){ grafica_estado_proyectos(); }, 1000);
   }
 
   function grafica_estado_proyectos() {
     
 
+
 // Build the chart
-Highcharts.chart('container_estados', {
+Highcharts.chart('grafica_estado', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
@@ -56,5 +59,7 @@ Highcharts.chart('container_estados', {
 });
 
 
+$("#cargar").hide();
+$("#contiene_informacion").show();
   }
       
